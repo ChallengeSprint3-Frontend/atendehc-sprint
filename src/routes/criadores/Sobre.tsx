@@ -5,8 +5,8 @@ import fotogiovana from '/fotogiovana.png'
 export default function Sobre(){
     return(
         <>
-        <header className="h-25 bg-[#15bef0] flex justify-center text-5xl p-6">
-            <h1> Sobre nós </h1>
+        <header className="h-35 bg-[#15bef0] flex justify-center text-7xl p-6">
+            <h1 className='font-bold'> SOBRE NÓS</h1>
         </header>
 
 <section className='flex justify-between p-16'>

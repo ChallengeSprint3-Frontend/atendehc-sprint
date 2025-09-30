@@ -1,17 +1,36 @@
-
+import personagemchatbot from '/personagemchatbot.png'
 
 export default function Faq(){
     return(
         <>
-        <header className="h-25 bg-gradient-to-r from-[#049fce] via-[#39b7dd] to-[#95e4f8] flex justify-center text-5xl p-6">
-            <h1> Perguntas Frequentes </h1>
+        <header className="h-35 bg-gradient-to-r from-[#049fce] via-[#39b7dd] to-[#95e4f8] flex justify-center text-7xl p-6">
+            <h1 className="font-bold"> PERGUNTAS FREQUENTES </h1>
         </header>
 
-        <section className="">
-            <h4> Bem-vindo à nossa central de ajuda! Aqui você encontra respostas para as dúvidas
+        <section className='flex'>
+
+            <section className='block p-15'>
+
+                <section className=" items-center w-[800] flex justify-center">
+                    <h2 className="text-6xl font-semibold w-[800] text-justify"> Tire suas dúvidas sobre a<br></br> plataforma ATENDE+HC<br></br> na saúde digital. </h2>
+                </section>
+
+                <section className=" w-[700] flex justify-center mt-[25px] ml-[20px]">
+                    <h4 className="text-2xl w-[700px] text-justify font-light"> Bem-vindo à nossa central de ajuda! Aqui você encontra respostas para as dúvidas
             mais comuns sobre nosso projeto e suas funcionalidades.
             Caso não encontre o que está procurando, entre em contato com a nossa equipe.</h4>
+                </section>
+
+            </section>   
+
+                <section className='block'>
+                    <img className="w-200"src={personagemchatbot} />
+                </section>
+
+                
+
         </section>
+
 
         <section className="">
 
