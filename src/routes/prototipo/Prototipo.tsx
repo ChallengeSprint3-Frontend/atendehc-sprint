@@ -30,14 +30,31 @@ export default function Prototipo(){
 
         </section>
 
-        <section className='flex'>
+        <section className='h-[20px] bg-[#0077C8]'></section>
 
-            <section className=''>
-                <img className='w-[300px]'src={prototipo}  />
+        <section className='flex justify-between p-10'>
+
+            <section className='flex'>
+                <section className=''>
+                    <img className='w-[400px]'src={prototipo}  />
+                </section>
+                <section className='w-[400px] mt-[100px]'>
+                    <h3 className='text-2xl font-bold'> Utilizando o ChatBot por mensagem de texto:</h3>
+                    <p className='text-[18px] mt-[10px] font-extralight text-justify'> - Abra o ChatBot pela sua plataforma de preferência, o exemplo ao lado utilizada a plataforma WhatsApp.</p>
+                    <p className='text-[18px] mt-[10px] font-extralight text-justify'> - Envie uma mensagem ao ChatBot, ele irá responder perguntando sua preferência de acessibilidade, e após isso pode solicitar o que deseja normalmente.</p>
+                </section>
             </section>
 
-            <section className=''>
-                <img className='w-[300px]' src={prototipoaudio} />
+            <section className='flex' >
+                <section className=''>
+                    <img className='w-[400px]' src={prototipoaudio} />
+                </section>
+                <section className='w-[400px] mt-[100px]'>
+                    <h3 className='text-2xl font-bold'> Utilizando o ChatBot por mensagem de voz:</h3>
+                    <p className='text-[18px] mt-[10px] font-extralight text-justify'> - Abra o ChatBot da mesma forma.</p>
+                    <p className='text-[18px] mt-[10px] font-extralight text-justify'> - Se preferir, pode já iniciar o atendimento com uma mensagem de voz, assim, o ChatBot irá assumir essa como sua preferência.</p>
+                    <p className='text-[18px] mt-[10px] font-extralight text-justify'> - Lembre-se de falar os comandos objetivamente para que o entendimento do ChatBot seja eficiente, procure um ambiente silencioso e sem ruídos.</p>
+                </section>
             </section>
 
         </section>
