@@ -1,9 +1,11 @@
 import personagemchatbot from '/personagemchatbot.png'
+import prototipo from '/prototipo.png'
+import prototipoaudio from '/prototipoaudio.png'
 
 export default function Prototipo(){
     return(
         <>
-        <header className="h-35 bg-[#15bef0] flex justify-center text-7xl p-6">
+        <header className="h-35 bg-gradient-to-r from-[#049fce] via-[#39b7dd] to-[#95e4f8] flex justify-center text-7xl p-6">
             <h1 className="font-bold"> PROTÓTIPO </h1>
         </header>
 
@@ -26,8 +28,21 @@ export default function Prototipo(){
                     <img className="w-200"src={personagemchatbot} />
                 </section>
 
-                
         </section>
+
+        <section className='flex'>
+
+            <section className=''>
+                <img className='w-[300px]'src={prototipo}  />
+            </section>
+
+            <section className=''>
+                <img className='w-[300px]' src={prototipoaudio} />
+            </section>
+
+        </section>
+
+        
         </>
     )
 }

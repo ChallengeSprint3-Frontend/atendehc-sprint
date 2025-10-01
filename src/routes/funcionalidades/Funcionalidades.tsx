@@ -13,7 +13,7 @@ import autenticacaoicon from '/autenticacaoicon.png'
 export default function Funcionalidades(){
     return(
         <>
-        <header className="h-35 bg-[#15bef0] flex justify-center text-7xl p-6">
+        <header className="h-35 bg-gradient-to-r from-[#049fce] via-[#39b7dd] to-[#95e4f8] flex justify-center text-7xl p-6">
             <h1 className="font-bold"> FUNCIONALIDADES </h1>
         </header>
 
@@ -69,7 +69,7 @@ export default function Funcionalidades(){
                 <section className='block p-5 w-[400px]'>
                     <img className = 'justify-self-center' src={familiaridadeicon} />
                     <h3 className='text-2xl p-5 justify-self-center font-semibold'>FAMILIARIDADE</h3>
-                    <p className='text-justify w-[300px] justify-self-center font-extralight text-[20px]'> Integração na plataforma de comunicação Whatsapp, que é amplamente conhecida pelo público, aumentando o sentimento de familiaridade e confiança</p>
+                    <p className='text-justify w-[300px] justify-self-center font-extralight text-[20px]'> Integração na plataforma de comunicação Whatsapp, que é a mais amplamente reconhecida pelo público, aumentando o sentimento de familiaridade e confiança</p>
                 </section>
 
                 <section className='block p-5 w-[400px]'>
