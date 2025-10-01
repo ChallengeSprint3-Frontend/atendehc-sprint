@@ -40,7 +40,7 @@ export default function Prototipo(){
                 </section>
                 <section className='w-[400px] mt-[100px]'>
                     <h3 className='text-2xl font-bold'> Utilizando o ChatBot por mensagem de texto:</h3>
-                    <p className='text-[18px] mt-[10px] font-extralight text-justify'> - Abra o ChatBot pela sua plataforma de preferência, o exemplo ao lado utilizada a plataforma WhatsApp.</p>
+                    <p className='text-[18px] mt-[10px] font-extralight text-justify'> - Abra o ChatBot pela sua plataforma de preferência, o exemplo ao lado utiliza a plataforma WhatsApp.</p>
                     <p className='text-[18px] mt-[10px] font-extralight text-justify'> - Envie uma mensagem ao ChatBot, ele irá responder perguntando sua preferência de acessibilidade, e após isso pode solicitar o que deseja normalmente.</p>
                 </section>
             </section>

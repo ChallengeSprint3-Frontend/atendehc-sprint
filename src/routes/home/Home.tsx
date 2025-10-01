@@ -70,7 +70,7 @@ export default function Home(){
                 <section className=" w-[700] flex justify-center mt-[25px] ml-[20px]">
                     <h4 className="text-2xl w-[700px] text-justify font-light"> O resultado esperado após a integração do projeto é a queda significativa das taxas de absenteísmo 
                 e aumento da capacitação digital, além  de facilitar a interação com a tecnologia para todos 
-                os públicos e também gerar autonomia para o usuário, que poderá por conta própria participar ativamente do processo de agendamento e teleatendimento..</h4>
+                os públicos e também gerar autonomia para o usuário, que poderá por conta própria participar ativamente do processo de agendamento e teleatendimento.</h4>
                 </section>
 
             </section>   
