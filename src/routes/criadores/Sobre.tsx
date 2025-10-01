@@ -88,6 +88,9 @@ export default function Sobre(){
 </section>
 
 
+        <section className='h-[20px] bg-[#0077C8]'></section>
+
+
         </>
     )
 }

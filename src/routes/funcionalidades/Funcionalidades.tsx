@@ -88,7 +88,7 @@ export default function Funcionalidades(){
             </section>
 
 
-            <section className='flex justify-between bg-[#e9eded] p-8'>
+            <section className='flex justify-between bg-[#e9eded] p-8 mb-[40px]'>
 
                 <section className='block p-5 w-[400px]'>
                     <img className = 'justify-self-center' src={temporealicon} />
@@ -112,6 +112,8 @@ export default function Funcionalidades(){
             </section>
 
         </section>
+
+        <section className='h-[20px] bg-[#0077C8]'></section>
         </>
     )
 }

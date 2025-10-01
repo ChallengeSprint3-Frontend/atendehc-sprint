@@ -88,6 +88,8 @@ export default function Faq(){
 
         </section>
 
+        <section className='h-[20px] bg-[#0077C8]'></section>
+
         <section className="min-h-screen flex items-start justify-center py-10 ">
             
             <section className="w-full max-w-6xl">
@@ -107,6 +109,7 @@ export default function Faq(){
                 </section>
             </section>
         </section>
+        <section className='h-[20px] bg-[#0077C8]'></section>
     
     </>
 )

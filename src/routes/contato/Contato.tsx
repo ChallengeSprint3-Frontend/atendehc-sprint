@@ -39,7 +39,9 @@ export default function Contato(){
 
         </section>
 
-        <section className='bg-[#e9eded] w-[700px] justify-self-center p-10 rounded-3xl mb-[50px] '>
+        <section className='h-[20px] bg-[#0077C8] '></section>
+
+        <section className='bg-[#e9eded] w-[700px] mt-[50px] justify-self-center p-10 rounded-3xl mb-[50px] '>
 
             <h2 className='text-4xl font-bold justify-self-center'> FORMULÁRIO DE CONTATO </h2>
 
@@ -64,6 +66,8 @@ export default function Contato(){
             </form>
     
         </section>
+
+        <section className='h-[20px] bg-[#0077C8]'></section>
            
 
         </>
