@@ -44,5 +44,9 @@ error/Erro.tsx = Página que será aberta em caso de erro/inexistência de pági
 
 ## LINK DO REPOSITÓRIO
 
+https://github.com/ChallengeSprint3-Frontend/atendehc-sprint.git
+
 ## LINK DO VÍDEO DO YOUTUBE
+
+https://youtu.be/eddoh6S_KJI
 
